@@ -1,0 +1,35 @@
+
+:root {
+    --primary: #f6f3ef;
+    --dark: #4f4f4f;
+    --body: #B0B0AB;
+    --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.2);
+}
+/* font */
+/*  <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 200 to 1000 */
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-style: normal;
+    line-height: 1.7;
+    /* font-variation-settings: */
+    color: var(--dark);
+      /* "wdth" 100,
+      "YTLC" 500; */
+  }
+
+  p {
+    color: var(--dark);
+    text-decoration: none;
+  }
+  
+  btn {
+    padding: 14px 20px;
+    border-width: 1px;
+    border-radius: 0;
+  }
+
+
+
+
