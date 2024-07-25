@@ -31,7 +31,7 @@ body {
   }
 /* Hero */
 .hero {
-  background-image: url(./images/ottawa-d.jpg);
+  background-image: url(../css/images/ottawa-d.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
