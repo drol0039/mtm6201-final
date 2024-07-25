@@ -29,28 +29,4 @@ body {
     border-width: 1px;
     border-radius: 0;
   }
-/* Hero */
-.hero {
-  background-image: url(../css/images/ottawa-d.jpg);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  z-index: 2;
-}
-.hero::after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(37, 39, 71, 0.7);
-  z-index: -1;
-}
-
-
-
-
-
-
+/* H
