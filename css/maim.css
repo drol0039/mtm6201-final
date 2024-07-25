@@ -29,6 +29,15 @@ body {
     border-width: 1px;
     border-radius: 0;
   }
+/* Hero */
+.hero {
+  background-image: url(./images/ottawa-d.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+}
 
 
 
