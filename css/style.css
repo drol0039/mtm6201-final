@@ -1,5 +1,6 @@
 @import url(https://fonts.google.com/share?selection.family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000);
 
+
 :root {
     --primary: #f6f3ef;
     --dark: #4f4f4f;
@@ -28,7 +29,14 @@ body {
     padding: 14px 20px;
     border-width: 1px;
     border-radius: 0;
+
   }
+
+ /* nav */
+ .nav-item :hover{
+  color: #157FAB ;
+  transition: .3s;
+ } 
 
 /* Hero */
 .hero {
@@ -51,6 +59,19 @@ body {
   z-index: -1;
 }
 
+.hero .welcome {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.hero img {
+  max-width: 150px;
+}
+
+.hero btn:hover {
+  color: #157FAB;
+}
 /* about and works */
 .about {
   position: relative;
@@ -86,6 +107,12 @@ img {
 
 .about:hover img{
   transform: scale(1.1);
+}
+
+/* footer */
+.footer {
+ padding: 30px;
+ background-color: var(--primary);
 }
 
 
